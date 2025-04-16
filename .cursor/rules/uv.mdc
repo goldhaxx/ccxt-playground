@@ -1,0 +1,10 @@
+---
+description: When to use uv (package management, venv management)
+globs: 
+alwaysApply: false
+---
+I have recently discovered uv for python and want to make use of it to its fullest extent. I am still learning what it is fully capable of, however, this python project should always use uv where it is the best option to do so. For example:
+
+- Installing packages should be done using uv pip instead of just pip.
+- Creating or managing virtual environments should be done using uv or uv venv.
+- Any other area where uv excels as the better option over other standard/slower/outdated python/pip alternatives.
