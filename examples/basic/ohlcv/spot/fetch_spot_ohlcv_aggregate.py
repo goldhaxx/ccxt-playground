@@ -32,7 +32,6 @@ EXCHANGES_TO_FETCH = [
     'coinbase', # Note: Primarily USD
     'coinbaseexchange', # Advanced Trade API, Primarily USD
     'coinbaseinternational', # Primarily USD
-    'coinlist', # Primarily USDT/USD - Supports limited timeframes
     'gate', # Note: Primarily USDT/USDC
     'gemini', # Note: Primarily USD
     'kraken', # Note: Uses XBT/various quotes, ccxt handles normalization
@@ -42,9 +41,9 @@ EXCHANGES_TO_FETCH = [
     'poloniex' # Note: Primarily USDT, some legacy BTC
 ]
 
-DEFAULT_SYMBOL = 'BTC/USDT'
-DEFAULT_TIMEFRAME = '1h'
-DEFAULT_LIMIT = 24  # Fetch last 24 hours for potentially better stats
+DEFAULT_SYMBOL = 'SOL/USD'
+DEFAULT_TIMEFRAME = '1d'
+DEFAULT_LIMIT = 30
 MAX_RETRIES = 2
 RETRY_DELAY = 3 # seconds
 
